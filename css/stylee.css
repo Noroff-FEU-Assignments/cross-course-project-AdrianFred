@@ -143,6 +143,10 @@ footer {
     font-weight: 600;
 }
 
+
+
+
+
 @media (max-width: 782px) {
   .navigation ul li {
     display: block;
@@ -191,6 +195,15 @@ header .fa-times {
 
 .logo img {
   display: none;
+  
+}
+
+.logo {
+  margin-left: -30vw;
+}
+
+.divhidden {
+  display: none;
 }
 
 header label {
@@ -210,9 +223,8 @@ header label {
   display: none;
 }
 
-#hamburger-menu:checked ~ .navigation {
-  display: block;
-}
+#hamburger-menu:checked ~ .navigation  {
+  display: block; }
 
 
 @media (max-width: 320px) {

@@ -302,7 +302,7 @@ color: #fff;
   align-items: center;
 }
 .checkoutjacket img {
- width: 50%;
+ width: 20%;
 }
 
 .checkoutjacket h4 {
@@ -465,6 +465,11 @@ header label {
 .Checkoutinformation {
   max-width: 50%;
 }
+
+.checkoutjacket img {
+  width: 50%;
+ }
+
 @media (max-width: 320px) {
   .jacket-list {
     grid-template-columns: repeat(1, 1fr);

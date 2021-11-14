@@ -4,7 +4,7 @@
   font-family: "Krub", sans-serif;
 }
 
-.navigation ul li .navigation-home {
+.navigation ul li .navigation-selected {
     color: #e57a44;
 }
 
@@ -93,6 +93,31 @@ header label {
   border-bottom: #808782 1px solid;
 }
 
+.background-img-men {
+  background-image: url("../images/picturemen.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  background-position-x: center;
+  background-position-y: 45%;
+  position: relative;
+  border-top: #808782 1px solid;
+  border-bottom: #808782 1px solid;
+}
+
+.background-img-women {
+  background-image: url("../images/picturewoman.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  background-position-x: center;
+  background-position-y: 60%;
+  position: relative;
+  border-top: #808782 1px solid;
+  border-bottom: #808782 1px solid;
+}
+
+
 .background-slogan img {
   position: absolute;
   text-align: center;
@@ -143,6 +168,34 @@ footer {
     font-weight: 600;
 }
 
+.jacket-list p {
+  text-align: center;
+  color: #e57a44;
+}
+
+/* About us page */
+
+
+.aboutus-pagecolor {
+  background-color: #0a3641;
+  min-height: 90vh;
+}
+
+.aboutheader {
+  color: #e57a44;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 40px;
+}
+
+.abouttext {
+  color: white;
+  text-align: left;
+  padding-left: 30vw;
+  padding-right: 30vw;
+  padding-top: 35px;
+  line-height: 25px;
+}
 
 
 
@@ -171,10 +224,10 @@ footer {
     background: #0a3641;
     height: 175vh;
     width: 100vw;
-    top: 0;
+    top: 8vh;
     right: 0;
     text-align: left;
-    padding-top: 20vh;
+    padding-top: 15vh;
     z-index: 2;
 }
  .navigation ul li a {
@@ -209,7 +262,7 @@ header .fa-times {
 header label {
     display: block;
     color: #0a3641;
-    padding-left: 20px;
+    padding-left: 60px;
     font-size: 5vw;
     
 }
@@ -225,6 +278,15 @@ header label {
 
 #hamburger-menu:checked ~ .navigation  {
   display: block; }
+
+.background-img-men {
+  background-position-x: 20%;
+}
+
+.abouttext {
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
 
 
 @media (max-width: 320px) {

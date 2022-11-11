@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.background-img {
+  background-image: url("../images/homepicture.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 45vw;
+  background-position-x: center;
+  background-position-y: 60%;
+  position: relative;
+  border-top: #808782 1px solid;
+  border-bottom: #808782 1px solid;
+}
+
+.background-slogan img {
+  /* width: 500px; */
+  position: absolute;
+  text-align: center;
+  top: 5vw;
+  left: 10vw;
+  /* transform: translateX(-50%); */
+  width: 40vw;
+}
+
+.header-section {
+  background-color: #f6f7f8;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 3%;
+  font-size: 25px;
+  max-height: 25px;
+}
+
+nav li {
+  display: inline;
+  padding: 25px;
+  color: #0a3641;
+  font-family: "Krub", sans-serif;
+  font-weight: bold;
+}
+
+nav ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+nav li .navigation-home {
+  color: #e57a44;
+}
+
+/* header  */
+
+.doublebuttons {
+  display: inline-flex;
+}
+
+.logo {
+  margin-left: 1em;
+  display: none;
+}
+
+.logo img {
+  width: 10vw;
+}
+
+.hamburger--menu {
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-button {
+  margin-right: 40px;
+}
+
+.profile-button i {
+  color: #0a3641;
+  font-size: 1.5em;
+}
+
+.basket-button i {
+  font-size: 1.5em;
+  color: #0a3641;
+}
+
+/* preview of jackets  */
+
+.preview {
+  background-color: #0a3641;
+}
+
+.jacket-image {
+  border: 1px solid #808782;
+  border-radius: 30px;
+  width: 20vw;
+  margin: 2vw;
+  margin-top: 0.5vw;
+}
+
+.jacket-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.jacket-preview {
+  margin: 0;
+}
+
+.preview h1 {
+  text-align: center;
+  font-size: 3vw;
+  color: #e57a44;
+  padding-top: 2vw;
+  text-decoration: underline;
+}
+
+.jacket-content {
+  margin-left: 2.5vw;
+}
+
+.preview h2 {
+  margin-bottom: 0;
+  font-size: 3vw;
+  color: white;
+}
+
+/* footer  */
+
+.footer-section {
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  header label {
+    display: none;
+  }
+
+  .logo {
+    display: inline;
+  }
+}
+
+@media (max-width: 600px) {
+}

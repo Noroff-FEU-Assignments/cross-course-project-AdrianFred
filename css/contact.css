@@ -1,0 +1,52 @@
+.contactform {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.text-danger {
+  color: Red;
+  font-size: 15px;
+  display: block;
+}
+
+.form-group label {
+  display: block;
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.form-group input {
+  margin-bottom: 5px;
+  min-width: 350px;
+  min-height: 20px;
+}
+
+.formedit {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-size: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Success message */
+
+.confirmMsg {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding-top: 40px;
+}
+
+/* Thank you */
+.thankYou {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
